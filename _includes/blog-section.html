@@ -1,11 +1,17 @@
 <section class="blog">
-  <h2>Finance Hub Blog</h2>
-  <p>Read our latest stories and tips on how to manage your money in Pidgin!</p>
-  {% for post in site.posts limit:3 %}
-    <article>
-      <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-      <p>{{ post.excerpt }}</p>
-      <a href="{{ post.url }}">Read More</a>
-    </article>
-  {% endfor %}
-</section>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 mx-auto">
+        <h2>Finance Hub Blog</h2>
+        <p>Read our latest stories and tips on how to manage your money in Pidgin!</p>
+        {% for post in site.posts limit:3 %}
+          <article>
+            <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+            <p>{{ post.excerpt }}</p>
+            <a href="{{ post.url }}">Read More</a>
+          </article>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>>

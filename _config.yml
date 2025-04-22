@@ -1,7 +1,8 @@
 # Site settings
 title: Finance Hub
+description: Your Guide to Money Success in Pidgin
 baseurl: ""
-url: "http://localhost:4000"
+url: "https://smartfinancehub.github.io"
 
 # Build settings
 markdown: kramdown

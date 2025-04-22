@@ -4,6 +4,36 @@ layout: default
 
 {% include hero-section.html %}
 
-{% include about-section.html %}
+<section class="chart">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 mx-auto text-center">
+        <h2>Money Tips Chart</h2>
+        <canvas id="myChart"></canvas>
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+        <script>
+          const ctx = document.getElementById('myChart').getContext('2d');
+          new Chart(ctx, {
+            type: 'bar',
+            data: {
+              labels: ['Save', 'Spend', 'Invest'],
+              datasets: [{
+                label: 'Money Tips',
+                data: [50, 30, 20],
+                backgroundColor: ['#4CAF50', '#FF9800', '#2196F3']
+              }]
+            },
+            options: {
+              scales: {
+                y: { beginAtZero: true }
+              }
+            }
+          });
+        </script>
+      </div>
+    </div>
+  </div>
+</section>
 
+{% include about-section.html %}
 {% include blog-section.html %}

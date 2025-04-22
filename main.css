@@ -1,0 +1,4 @@
+.navbar-nav .nav-link:hover {
+  color: #FFD700; /* Gold color for hover */
+  text-decoration: underline;
+}
