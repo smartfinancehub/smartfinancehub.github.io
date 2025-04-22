@@ -1,0 +1,12 @@
+.dark-mode {
+  background-color: #333;
+  color: #fff;
+}
+.dark-mode .hero-area,
+.dark-mode .about,
+.dark-mode .blog,
+.dark-mode .chart,
+.dark-mode footer {
+  background-color: #444;
+  color: #fff;
+}
