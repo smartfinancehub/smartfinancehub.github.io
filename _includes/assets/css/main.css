@@ -1,0 +1,162 @@
+/* Reset some default styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+}
+
+/* Header and Navigation */
+.navbar {
+  background-color: #333;
+  padding: 15px 0;
+}
+.navbar-brand {
+  color: #fff;
+  font-size: 24px;
+  text-decoration: none;
+  margin-left: 20px;
+}
+.navbar-nav {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 20px;
+}
+.nav-item {
+  margin-left: 20px;
+}
+.nav-link {
+  color: #fff;
+  text-decoration: none;
+}
+.nav-link:hover {
+  color: #FFD700; /* Gold color for hover */
+  text-decoration: underline;
+}
+
+/* Hero Section */
+.hero-area {
+  background-color: #333;
+  color: #fff;
+  padding: 50px 0;
+  text-align: center;
+}
+.hero-area h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+.hero-area p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+.btn-primary {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+/* Chart Section */
+.chart {
+  padding: 50px 0;
+  background-color: #fff;
+  text-align: center;
+}
+.chart h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+/* About Section */
+.about {
+  padding: 50px 0;
+  background-color: #f5f5f5;
+}
+.about h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+.about p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+/* Blog Section */
+.blog {
+  padding: 50px 0;
+  background-color: #fff;
+}
+.blog h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+.blog p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+.blog article {
+  margin-bottom: 30px;
+}
+.blog h3 {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+/* Contact Section */
+.contact {
+  padding: 50px 0;
+  background-color: #f5f5f5;
+}
+.contact h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+.contact p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+.dark-mode-btn {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.dark-mode-btn:hover {
+  background-color: #0056b3;
+}
+
+/* Dark Mode */
+.dark-mode {
+  background-color: #333;
+  color: #fff;
+}
+.dark-mode .hero-area,
+.dark-mode .about,
+.dark-mode .blog,
+.dark-mode .chart,
+.dark-mode .contact,
+.dark-mode footer {
+  background-color: #444;
+  color: #fff;
+}
+
+/* Add spacing between sections */
+.hero-area, .chart, .about, .blog, .contact {
+  margin-bottom: 20px;
+}

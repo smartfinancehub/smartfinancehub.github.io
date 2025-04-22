@@ -1,3 +1,9 @@
+---
+layout: default
+---
+
+{% include hero-section.html %}
+
 <section class="chart">
   <div class="container">
     <div class="row">
@@ -20,15 +26,6 @@
             options: {
               scales: {
                 y: { beginAtZero: true }
-              },
-              plugins: {
-                tooltip: {
-                  enabled: true
-                }
-              },
-              animation: {
-                duration: 1000,
-                easing: 'easeInOutQuad'
               }
             }
           });
@@ -37,3 +34,6 @@
     </div>
   </div>
 </section>
+
+{% include about-section.html %}
+{% include blog-section.html %}
